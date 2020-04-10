@@ -1,0 +1,23 @@
+* TODO HashMap,ConcurrentHashMap,LinkedHashMap,HashTable,TreeMap源码解析
+1.[[https://coolshell.cn/articles/9606.html][hashmap并发死循环，链表回环问题]]
+2.[[https://www.jianshu.com/p/ee0de4c99f87][HashMap源码分析]]
+3.[[https://zhuanlan.zhihu.com/p/21673805][Java 8系列之重新认识HashMap]]
+
+* java深拷贝和浅拷贝
+按值传递：指的是在方法调用时，传递的参数是按值的拷贝传递。传递的是值的拷贝，也就是说传递后就互不相关了。
+引用传递：指的是在方法调用时，传递的是引用的地址，也就是变量所对应的内存空间的地址。，也就是说传递前和传递后都指向同一个引用（也就是同一个内存空间）
+浅拷贝:对基本类型进行值传递,对引用数据类型进行引用传递的拷贝
+深拷贝:对基本类型进行值传递,对引用数据类型,创建一个新的对象,并复制其内容.
+[[https://www.cnblogs.com/shakinghead/p/7651502.html][Java深拷贝和浅拷贝的理解和实现方式]]
+
+* TODO ArrayList源码解析
+
+* TODO ReentrantLock源码分析,Semaphore,countDownLatch,CyclicBarrier,ReadWriteLock
+
+* 多线程
+[[https://www.cnblogs.com/waterystone/p/4920007.html][线程状态转换图]]
+[[https://my.oschina.net/itblog/blog/787024][对Java中interrupt、interrupted和isInterrupted的理解]]
+[[https://www.cnblogs.com/waterystone/p/4920797.html][Java并发之AQS详解]]
+* ThreadLocal内存泄漏
+* [[https://blog.csdn.net/weixin_41948075/article/details/100180136][BTree和B+Tree详解]]
+* [[https://blog.csdn.net/m0_37524661/article/details/87086267][Redis线程模型]]
